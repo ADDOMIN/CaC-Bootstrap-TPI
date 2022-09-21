@@ -74,52 +74,54 @@
     </div>
     <a name="Oradores"></a>
     <br>
+
+    <!-- <div class="card-group"> -->
+
     <div class="container">
-
-        <!-- <div class="card-group"> -->
-
         <div class="row">
-            <div class="col-md-3 offset-md-1 card">
-                <img class="card-img-top" src="imagenes/steve.jpg" alt="Steve Jobs Pic">
-                <div class="card-body">
-                    <a href="#" class="btn btn-warning" style="padding: 1px;">
-                        <b>JavaScript</b></a>
-                    <a href="#" class="btn btn-success" style="padding: 1px;">
-                        <b>React</b></a>
-                    <h4 class="card-title">Steve Jobs</h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet. Est rerum iure sed mollitia cumque et ullam
-                        consequatur qui voluptatibus fuga. Aut libero
-                        adipisci ea facilis quidem id asperiores perferendis et veniam omnis est omnis voluptatem et
-                        odio error.</p>
+            <div class="card-group">
+                <div class="col-md-3 offset-md-1 card">
+                    <img class="card-img-top" src="imagenes/steve.jpg" alt="Steve Jobs Pic">
+                    <div class="card-body">
+                        <a href="#" class="btn btn-warning" style="padding: 1px;">
+                            <b>JavaScript</b></a>
+                        <a href="#" class="btn btn-success" style="padding: 1px;">
+                            <b>React</b></a>
+                        <h4 class="card-title">Steve Jobs</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet. Est rerum iure sed mollitia cumque et ullam
+                            consequatur qui voluptatibus fuga. Aut libero
+                            adipisci ea facilis quidem id asperiores perferendis et veniam omnis est omnis voluptatem et
+                            odio error.</p>
 
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-3 offset-md-1 card">
-                <img class="card-img-top" src="imagenes/bill.jpg" alt="Bill Gates pic">
-                <div class="card-body">
-                    <a href="#" class="btn btn-warning" style="padding: 1px;">
-                        <b>JavaScript</b></a>
-                    <a href="#" class="btn btn-success" style="padding: 1px;">
-                        <b>React</b></a>
-                    <h4 class="card-title">Bill Gates</h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet. Est rerum iure sed mollitia cumque et ullam
-                        consequatur qui voluptatibus fuga. Aut libero
-                        adipisci ea facilis quidem id asperiores perferendis et veniam omnis est omnis voluptatem et
-                        odio error.</p>
+                <div class="col-md-3 offset-md-1 card">
+                    <img class="card-img-top" src="imagenes/bill.jpg" alt="Bill Gates pic">
+                    <div class="card-body">
+                        <a href="#" class="btn btn-warning" style="padding: 1px;">
+                            <b>JavaScript</b></a>
+                        <a href="#" class="btn btn-success" style="padding: 1px;">
+                            <b>React</b></a>
+                        <h4 class="card-title">Bill Gates</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet. Est rerum iure sed mollitia cumque et ullam
+                            consequatur qui voluptatibus fuga. Aut libero
+                            adipisci ea facilis quidem id asperiores perferendis et veniam omnis est omnis voluptatem et
+                            odio error.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="col-md-3 offset-md-1 card">
-                <img class="card-img-top" src="imagenes/ada.jpeg" alt="Ada Lovelace pic">
-                <div class="card-body">
-                    <a href="#" class="btn btn-success" style="padding: 1px;">
-                        <b>Negocios</b></a>
-                    <a href="#" class="btn btn-danger" style="padding: 1px;">
-                        <b>Startups</b></a>
-                    <h4 class="card-title">Ada Lovelace</h4>
-                    <p class="card-text">Lorem ipsum dolor sit amet. Est rerum iure sed mollitia cumque et ullam
-                        consequatur qui voluptatibus fuga. Aut libero
-                        adipisci ea facilis quidem id asperiores perferendis et veniam omnis est omnis voluptatem et
-                        odio error. </p>
+                <div class="col-md-3 offset-md-1 card">
+                    <img class="card-img-top" src="imagenes/ada.jpeg" alt="Ada Lovelace pic">
+                    <div class="card-body">
+                        <a href="#" class="btn btn-success" style="padding: 1px;">
+                            <b>Negocios</b></a>
+                        <a href="#" class="btn btn-danger" style="padding: 1px;">
+                            <b>Startups</b></a>
+                        <h4 class="card-title">Ada Lovelace</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet. Est rerum iure sed mollitia cumque et ullam
+                            consequatur qui voluptatibus fuga. Aut libero
+                            adipisci ea facilis quidem id asperiores perferendis et veniam omnis est omnis voluptatem et
+                            odio error. </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -157,8 +159,28 @@
         <P>Anótate como orador para dar una <span><u style="text-decoration-style: dotted;">charla ignite</u></span>.
             Cuéntanos de que quieres hablar!</P>
         <a name="OradorTu"></a>
-    </div>
 
+
+        <form class="container">
+            <div class="row">
+                <div class="col-5 bg-light border">
+                    <input size="55" type="text" name="firstname" placeholder="Nombre">
+                </div>
+                <div class="col-5 offset-md-2 bg-light border">
+
+                    <input size="55" type="text" name="lastname" placeholder="Apellido">
+                </div>
+            </div>
+            <div class="row">
+                <textarea name="comments" placeholder="Sobre qué quieres hablar?" rows="5"></textarea>
+
+                <p style="text-align-last: left;">Recuerda incluir un título para tu charla</p>
+                <input class="btn" type="submit" value="Enviar"
+                    style="background-color:rgb(66, 158, 12) ; color: white;">
+
+            </div>
+        </form>
+    </div>
 </body>
 
 </html>

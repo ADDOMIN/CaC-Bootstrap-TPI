@@ -9,6 +9,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
+    <style>
+        .nav-link {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+
     <title>Bootstrap_TP-Integrador</title>
 </head>
 
@@ -52,8 +59,8 @@
     <a name="Conferencia"></a>
     <div class="card position-relative">
         <img class="card-img-top w-100" src="imagenes/ba1.jpg" alt="Imagen de Bs As" style="filter: brightness(0.5);">
-        <div class="position-absolute" style="color: white; max-width: 50%; bottom: 24%; right: 10%;">
-            <div style="width: 500px; text-align: right;">
+        <div class="position-absolute text" style="color: white; max-width: 50%; bottom: 24%; right: 10%;">
+            <div class="card-text d-none d-md-block" style=" text-align: right;">
                 <h3 class="card-title">Conf Bs As</h3>
                 <p class="card-text">Bs As llega por primera vez a Argentina. Un
                     evento para
@@ -200,61 +207,49 @@
             </div>
         </div>
     </div>
-
-    <!--
-        <form class="container p-5">
-            <div class="row g-3">
-                <div class="col">
-                    <input type="text" name="firstname" placeholder="Nombre">
-                </div>
-                <div class="col-5 offset-md-2 bg-light border">
-
-                    <input size="55" type="text" name="lastname" placeholder="Apellido">
-                </div>
-            </div>
-            <div class="row">
-                <textarea name="comments" placeholder="Sobre qué quieres hablar?" rows="5"></textarea>
-
-                <p style="text-align-last: left;">Recuerda incluir un título para tu charla</p>
-                <input class="btn" type="submit" value="Enviar"
-                    style="background-color:rgb(66, 158, 12) ; color: white;">
-
-            </div>
-        </form>
-    -->
     </div>
 
     <!--    FOOTER   -->
 
-    <div class="container-fluid">
-        <div class="row p-4 bg-dark text-white">
-            <div class="col-xs-12 col-md-4 col-lg-1">
-                <div class="text-align-wrap">
-                    <a class=" text-white text-decoration-none" href="#">Preguntas Frecuentes</a>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-4 col-lg-2">
-                <a class=" text-white text-decoration-none" href="#">Contactanos</a>
-            </div>
-            <div class="col-xs-12 col-md-4 col-lg-2">
-                <a class=" text-white text-decoration-none" href="#">Prensa</a>
-            </div>
-            <div class="col-xs-12 col-md-4 col-lg-2">
-                <a class=" text-white text-decoration-none" href="#">Conferencias</a>
-            </div>
-            <div class="col-xs-12 col-md-4 col-lg-1">
-                <div class="text-align-wrap">
-                    <a class=" text-white text-decoration-none" href="#">Terminos y condiciones</a>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-4 col-lg-2">
-                <a class=" text-white text-decoration-none" href="#">Privacidad</a>
-            </div>
-            <div class="col-xs-12 row-cols-md-4 col-lg-2">
-                <a class=" text-white text-decoration-none" href="#">Estudiantes</a>
-            </div>
+    <div class="container-fluid mt-3 align-items-evenly" Style="background-color: rgb(5, 5, 37); color: white;">
 
-        </div>
+        <ul class="nav nav-justified flex-column flex-md-row p-4" style="margin-left: 10%; margin-right: 10%;">
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    Preguntas Frecuentes
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    Contáctanos
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    Prensa
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    Conferencias
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    Términos y Condiciones
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    Privacidad
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    Estudiantes
+                </a>
+            </li>
+        </ul>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
